@@ -1,3 +1,4 @@
+const args = process.argv.slice(1);
 const args = process.argv.slice(2); //Removes 'node' and script path, keeps only arguments
 
 if (args.length === 0) {
